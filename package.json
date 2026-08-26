@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev --transpile-only src/server.ts"
+    "dev": "node api.js && ts-node-dev --transpile-only src/server.ts"
   },
   "keywords": [],
   "author": "",
